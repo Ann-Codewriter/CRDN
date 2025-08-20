@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #1B211D;
+}
+
+.hero-section {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 64px;
+    padding: 22px 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1,312px;
+    gap: 24px;
+}
+
+.nav-logo {
+    width: 100%;
+    max-width: 97px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #BD2E3B;
+}
