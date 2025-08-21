@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Work Sans", sans-serif;
+}
+
+h1, h2 {
+    font-family: "Prata", serif;
 }
 
 header {
@@ -97,6 +101,10 @@ select {
     cursor: pointer;
 }
 
+hr {
+    opacity: 20%;
+}
+
 .hero-section {
     display: flex;
     flex-direction: column;
@@ -104,13 +112,11 @@ select {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 16px;
 }
 
 .hero-content {
     display: flex;
     margin-top: 112px;
-    gap: 16px;
 }
 
 .hero-text {
@@ -123,10 +129,9 @@ select {
     width: 100%;
     max-width: 768px;
     color: white;
-    font-weight: 100;
-    font-size: 75px;
+    font-weight: 400;
+    font-size: 72px;
     line-height: 120%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .hero-text p {
@@ -135,7 +140,7 @@ select {
     color: white;
     font-weight: 400;
     line-height: 150%;
-    font-size: 17px;
+    font-size: 18px;
     padding: 24px 0 32px;
 }
 
@@ -162,6 +167,7 @@ select {
     background: #BD2E3B;
     color: white;
     font-weight: 500;
+    font-size: 16px;
     padding: 10px 20px;
 }
 
@@ -171,6 +177,7 @@ select {
     background: none;
     color: white;
     font-weight: 500;
+    font-size: 16px;
     padding: 8px 20px;
 }
 
