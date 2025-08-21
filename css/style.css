@@ -14,19 +14,25 @@ header {
     padding-bottom: 112px;
 }
 
-.nav-section {
+header section {
     width: 100%;
     max-width: 1440px;
-    align-items: center;
-    justify-content: space-between;
     margin: 0 auto;
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+    padding: 22px 64px;
+    width: 100%;
+    max-width: 1312px;
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    padding: 24px 64px;
     width: 100%;
+    margin: 0 auto;
 }
 
 .nav-logo img {
@@ -68,7 +74,7 @@ select {
 
 .nav-btns {
     display: flex;
-    padding-left: 535px;
+    justify-content: flex-end;
     gap: 16px;
 }
 
@@ -111,12 +117,14 @@ hr {
     justify-content: space-between;
     width: 100%;
     max-width: 1280px;
-    margin: 0 auto;
+    padding: 0 64px 0 64px;
 }
 
 .hero-content {
     display: flex;
-    margin-top: 112px;
+    align-items: center;
+    width: 100%;
+    margin: 112px 0 80px;
 }
 
 .hero-text {
@@ -153,7 +161,6 @@ hr {
 .frame {
     width: 100%;
     max-width: 416px;
-    margin: 0 86px 111px 10px;
 }
 
 .frame img {
