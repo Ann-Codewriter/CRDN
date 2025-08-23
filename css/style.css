@@ -380,7 +380,6 @@ hr {
     border: 1px solid;
     border-radius: 100px;
     padding: 10px 24px;
-    gap: 16px;
 }
 
 .chat-btn {
@@ -391,5 +390,164 @@ hr {
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 100px;
     padding: 10px 24px;
+}
+
+.section2-btn {
+    display: flex;
     gap: 16px;
+}
+
+footer section {
+    justify-content: space-between;
+    width: 100%;
+    background-color: #020904;
+}
+
+.footer-content {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px;
+    gap: 128px;
+}
+
+.footer-logo {
+    width: 100%;
+    max-width: 87.31px;
+    padding-bottom: 24px;
+}
+
+.text1 {
+    width: 100%;
+    max-width: 500px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+
+.footer-email {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+    padding-bottom: 16px;
+}
+
+.mailing-list input {
+    background: #FFFFFF1A;
+    outline: none;
+    width: 100%;
+    max-width: 402px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid rgba(233, 230, 230, 0.1);
+    font-weight: 400;
+    font-size: 16px;
+    padding: 12px 8px;
+    color: #FFFFFF99;
+}
+
+.footer-btn {
+    width: 100%;
+    max-width: 82px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 100px;
+    padding: 10px 24px;
+}
+
+.text2 {
+    font-weight: 400;
+    font-size: 12px;
+    width: 100%;
+    max-width: 500px;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    line-height: 150%;
+}
+
+.quick-links Ul {
+    list-style: none;
+}
+
+.quick-links Ul li {
+    padding-top: 8px;
+}
+
+.quick-links a {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 150%;
+}
+
+.quick-links p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.content3 {
+    align-items: center;
+    line-height: 150%;
+}
+
+.content3 img {
+    width: 100%;
+    max-width: 20px;
+}
+
+
+.content3 li{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 150%;
+    display: flex;
+    padding: 8px 0;
+    gap: 5px;
+}
+
+.footer-notes {
+    width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+    padding-bottom: 80px;
+}
+
+.copyright {
+    display: flex;
+    padding-top: 32px;
+    gap: 650px;
+}
+
+.copyright p {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.copyright ul {
+    display: flex;
+    gap: 24px;
+}
+
+.copyright a {
+    color: white;
 }
